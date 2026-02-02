@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dhanalakshmi Paidala | Computer Science Student & IoT Specialist</title>
+  <meta name="description" content="Portfolio of Dhanalakshmi Paidala - A Computer Science student specializing in IoT with expertise in Python, Flask, and full-stack development." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" data-testid="link-logo">Dhanalakshmi</a>
+      <div class="nav-links">
+        <a href="#about" data-testid="link-nav-about">About</a>
+        <a href="#skills" data-testid="link-nav-skills">Skills</a>
+        <a href="#education" data-testid="link-nav-education">Education</a>
+        <a href="#projects" data-testid="link-nav-projects">Projects</a>
+        <a href="#certifications" data-testid="link-nav-certifications">Certifications</a>
+        <a href="#contact" data-testid="link-nav-contact">Contact</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" data-testid="button-theme-toggle">
+        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-bg"></div>
+    <div class="floating-particles" id="particles"></div>
+    <div class="hero-content animate-fade-in">
+      <span class="badge badge-secondary animate-scale" data-testid="badge-availability">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        Available for Opportunities
+      </span>
+      <h1 class="hero-title" data-testid="text-hero-title">
+        Hi, I'm <span class="gradient-text">Dhanalakshmi</span>
+      </h1>
+      <p class="hero-description" data-testid="text-hero-description">
+        Computer Science Student specializing in <span class="highlight">Internet of Things (IoT)</span> passionate about building real-world applications and solving everyday problems with technology.
+      </p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-primary" data-testid="button-contact-hero">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          Get in Touch
+        </a>
+        <a href="#projects" class="btn btn-outline" data-testid="button-projects-hero">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+          View Projects
+        </a>
+      </div>
+      <div class="scroll-indicator">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content animate-slide-left">
+          <span class="badge badge-outline">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            About Me
+          </span>
+          <h2 class="section-title">Passionate about <span class="gradient-text">Technology & Innovation</span></h2>
+          <p class="about-text">
+            I'm a Computer Science student with a specialization in the Internet of Things (IoT). I have a strong interest in technology and enjoy building real-world applications that make a difference.
+          </p>
+          <p class="about-text">
+            Recently, I developed an appointment scheduling system using Python and Flask, which gave me practical experience in web development and backend programming. I'm always eager to learn new things and love using technology to create simple solutions for everyday problems.
+          </p>
+          <div class="about-tags">
+            <div class="about-tag">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              India
+            </div>
+            <div class="about-tag">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+              B.Tech CSE (IoT)
+            </div>
+            <div class="about-tag">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/></svg>
+              IoT Specialist
+            </div>
+          </div>
+        </div>
+        <div class="about-stats animate-slide-right">
+          <div class="stats-card">
+            <div class="stats-grid">
+              <div class="stat-item" data-testid="card-stat-cgpa">
+                <div class="stat-value purple" data-testid="text-stat-cgpa">8.02</div>
+                <div class="stat-label">CGPA</div>
+              </div>
+              <div class="stat-item" data-testid="card-stat-technologies">
+                <div class="stat-value violet" data-testid="text-stat-technologies">9+</div>
+                <div class="stat-label">Technologies</div>
+              </div>
+              <div class="stat-item" data-testid="card-stat-certifications">
+                <div class="stat-value pink" data-testid="text-stat-certifications">2+</div>
+                <div class="stat-label">Certifications</div>
+              </div>
+              <div class="stat-item" data-testid="card-stat-projects">
+                <div class="stat-value blue" data-testid="text-stat-projects">1+</div>
+                <div class="stat-label">Projects</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header animate-fade-in">
+        <span class="badge badge-outline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          My Skills
+        </span>
+        <h2 class="section-title">Technical <span class="gradient-text">Expertise</span></h2>
+        <p class="section-description">A diverse set of programming languages, frameworks, and tools that I've mastered through hands-on projects and continuous learning.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skills-technical animate-slide-left">
+          <h3 class="skills-category-title">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+            Technical Skills
+          </h3>
+          <div class="skill-bars">
+            <div class="skill-bar-item" data-testid="text-techskill-python">
+              <div class="skill-info">
+                <span class="skill-name">Python</span>
+                <span class="skill-percent" data-testid="text-level-python">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="--progress: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item" data-testid="text-techskill-javascript">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percent" data-testid="text-level-javascript">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="--progress: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item" data-testid="text-techskill-flask">
+              <div class="skill-info">
+                <span class="skill-name">Flask</span>
+                <span class="skill-percent" data-testid="text-level-flask">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="--progress: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item" data-testid="text-techskill-html">
+              <div class="skill-info">
+                <span class="skill-name">HTML</span>
+                <span class="skill-percent" data-testid="text-level-html">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="--progress: 90%"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item" data-testid="text-techskill-css">
+              <div class="skill-info">
+                <span class="skill-name">CSS</span>
+                <span class="skill-percent" data-testid="text-level-css">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="--progress: 85%"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item" data-testid="text-techskill-mongodb">
+              <div class="skill-info">
+                <span class="skill-name">MongoDB</span>
+                <span class="skill-percent" data-testid="text-level-mongodb">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="--progress: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item" data-testid="text-techskill-mysql">
+              <div class="skill-info">
+                <span class="skill-name">MySQL</span>
+                <span class="skill-percent" data-testid="text-level-mysql">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="--progress: 75%"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item" data-testid="text-techskill-cc">
+              <div class="skill-info">
+                <span class="skill-name">C/C++</span>
+                <span class="skill-percent" data-testid="text-level-cc">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="--progress: 80%"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item" data-testid="text-techskill-java">
+              <div class="skill-info">
+                <span class="skill-name">Java</span>
+                <span class="skill-percent" data-testid="text-level-java">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" style="--progress: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-soft animate-slide-right">
+          <h3 class="skills-category-title">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            Soft Skills
+          </h3>
+          <div class="soft-skills-grid">
+            <div class="soft-skill-card" data-testid="text-skill-communication">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              <h4>Communication</h4>
+              <p>Clear and effective communication</p>
+            </div>
+            <div class="soft-skill-card" data-testid="text-skill-problem-solving">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="9" y1="18" x2="15" y2="18"/><line x1="10" y1="22" x2="14" y2="22"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg>
+              <h4>Problem Solving</h4>
+              <p>Analytical thinking approach</p>
+            </div>
+            <div class="soft-skill-card" data-testid="text-skill-teamwork">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              <h4>Teamwork</h4>
+              <p>Collaborative team player</p>
+            </div>
+            <div class="soft-skill-card" data-testid="text-skill-debugging">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="8" y="6" width="8" height="14" rx="4"/><path d="m19 7-3 2"/><path d="m5 7 3 2"/><path d="m19 19-3-2"/><path d="m5 19 3-2"/><path d="M20 13h-4"/><path d="M4 13h4"/><path d="M10 4l1 2"/><path d="M13 4l-1 2"/></svg>
+              <h4>Debugging</h4>
+              <p>Expert troubleshooting skills</p>
+            </div>
+            <div class="soft-skill-card" data-testid="text-skill-time-management">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <h4>Time Management</h4>
+              <p>Efficient and organized</p>
+            </div>
+            <div class="soft-skill-card" data-testid="text-skill-quick-learner">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+              <h4>Quick Learner</h4>
+              <p>Fast adaptation to new tech</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+      <div class="section-header animate-fade-in">
+        <span class="badge badge-outline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          Education
+        </span>
+        <h2 class="section-title">Academic <span class="gradient-text">Background</span></h2>
+      </div>
+      <div class="education-card animate-scale">
+        <div class="education-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        </div>
+        <div class="education-content">
+          <div class="education-header">
+            <h3 data-testid="text-education-degree">Bachelor of Technology (B.Tech)</h3>
+            <span class="badge badge-primary" data-testid="badge-education-status">In Progress</span>
+          </div>
+          <p class="education-specialization" data-testid="text-education-specialization">Computer Science - IoT Specialization</p>
+          <p class="education-institution" data-testid="text-education-institution">Parvatha Reddy Babul Reddy Visvodaya Institute of Technology & Science</p>
+          <div class="education-meta">
+            <div class="education-meta-item" data-testid="text-education-duration">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+              Sep 2022 - Present
+            </div>
+            <div class="education-meta-item" data-testid="text-education-cgpa">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+              CGPA: 8.02
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header animate-fade-in">
+        <span class="badge badge-outline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></svg>
+          Projects
+        </span>
+        <h2 class="section-title">Featured <span class="gradient-text">Work</span></h2>
+        <p class="section-description">Real-world applications I've built to solve practical problems and enhance my development skills.</p>
+      </div>
+      <div class="project-card animate-scale">
+        <div class="project-visual">
+          <div class="project-icon-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+        </div>
+        <div class="project-content">
+          <span class="badge badge-secondary" data-testid="badge-project-type">Full Stack</span>
+          <h3 data-testid="text-project-title">Appointment Scheduling System</h3>
+          <ul class="project-features">
+            <li>Developed a web-based appointment scheduling system using Python and Flask</li>
+            <li>Designed user-friendly interfaces for booking, updating, and managing appointments</li>
+            <li>Used MongoDB as the backend database for secure data storage and fast retrieval</li>
+            <li>Gained hands-on experience in full-stack development and API integration</li>
+          </ul>
+          <div class="project-tech" data-testid="container-project-tech">
+            <span class="tech-badge" data-testid="badge-tech-python">Python</span>
+            <span class="tech-badge" data-testid="badge-tech-flask">Flask</span>
+            <span class="tech-badge" data-testid="badge-tech-mongodb">MongoDB</span>
+            <span class="tech-badge" data-testid="badge-tech-restapi">REST API</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="certifications">
+    <div class="container">
+      <div class="section-header animate-fade-in">
+        <span class="badge badge-outline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>
+          Certifications
+        </span>
+        <h2 class="section-title">Professional <span class="gradient-text">Credentials</span></h2>
+      </div>
+      <div class="certifications-grid">
+        <div class="certification-card animate-scale">
+          <div class="certification-icon yellow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+          </div>
+          <div class="certification-content">
+            <h4>Python Programming</h4>
+            <p>Codetantra</p>
+            <a href="#" class="btn btn-outline btn-sm" data-testid="button-credentials-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View Credentials
+            </a>
+          </div>
+        </div>
+        <div class="certification-card animate-scale">
+          <div class="certification-icon orange">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+          </div>
+          <div class="certification-content">
+            <h4>HTML-CSS-JavaScript</h4>
+            <p>Codetantra</p>
+            <a href="#" class="btn btn-outline btn-sm" data-testid="button-credentials-1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              View Credentials
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header animate-fade-in">
+        <span class="badge badge-outline">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          Contact
+        </span>
+        <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+        <p class="section-description">I'm always open to discussing new opportunities, collaborations, or just having a chat about technology.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card animate-scale" data-testid="card-contact-email">
+          <div class="contact-icon purple">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <h4 data-testid="text-contact-email-label">Email</h4>
+          <a href="mailto:dhanalakshmipaidala3@gmail.com" data-testid="link-email">dhanalakshmipaidala3@gmail.com</a>
+        </div>
+        <div class="contact-card animate-scale" data-testid="card-contact-phone">
+          <div class="contact-icon green">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <h4 data-testid="text-contact-phone-label">Phone</h4>
+          <a href="tel:+916305669553" data-testid="link-phone">+91 6305669553</a>
+        </div>
+        <div class="contact-card animate-scale" data-testid="card-contact-linkedin">
+          <div class="contact-icon blue">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </div>
+          <h4 data-testid="text-contact-linkedin-label">LinkedIn</h4>
+          <a href="https://linkedin.com/in/dhanalakshmi" target="_blank" rel="noopener noreferrer" data-testid="link-linkedin">linkedin.com/in/dhanalakshmi</a>
+        </div>
+      </div>
+      <div class="contact-cta animate-fade-in">
+        <a href="mailto:dhanalakshmipaidala3@gmail.com" class="btn btn-primary btn-lg" data-testid="button-send-message">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          Send a Message
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2024 Dhanalakshmi Paidala. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="mailto:dhanalakshmipaidala3@gmail.com" data-testid="link-footer-email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          <a href="tel:+916305669553" data-testid="link-footer-phone">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/dhanalakshmi" target="_blank" rel="noopener noreferrer" data-testid="link-footer-linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
